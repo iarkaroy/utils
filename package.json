@@ -1,0 +1,32 @@
+{
+  "name": "@iarkaroy/utils",
+  "version": "0.1.0",
+  "description": "Common javascript functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack -w",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iarkaroy/utils.git"
+  },
+  "keywords": [
+    "utils",
+    "javascript"
+  ],
+  "author": "Arka Roy <i.arkaroy@gmail.com> (https://www.arkaroy.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iarkaroy/utils/issues"
+  },
+  "homepage": "https://github.com/iarkaroy/utils#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
