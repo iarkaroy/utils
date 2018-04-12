@@ -4,9 +4,10 @@
   "description": "Common javascript functions",
   "main": "dist/main.js",
   "scripts": {
-    "test": "mocha --require babel-core/register",
+    "test": "mocha --require babel-core/register --reporter spec",
     "watch": "webpack -w",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "prepublish": "npm test && npm run build"
   },
   "repository": {
     "type": "git",
