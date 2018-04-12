@@ -4,7 +4,8 @@ export const is = {
     str: a => typeof a === 'string',
     fnc: a => typeof a === 'function',
     und: a => typeof a === 'undefined',
-    num: a => typeof a === 'number'
+    num: a => typeof a === 'number',
+    nul: a => a === null
 };
 
 function stringContains(str, text) {
