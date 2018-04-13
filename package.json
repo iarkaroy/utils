@@ -1,6 +1,6 @@
 {
   "name": "@iarkaroy/utils",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Common javascript functions",
   "main": "dist/main.js",
   "scripts": {
