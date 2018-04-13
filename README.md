@@ -71,3 +71,14 @@ utils.rand(100, 50);
 ```
 npm test
 ```
+
+## Author
+
+**Arka Roy**
++ [arkaroy.net](https://www.arkaroy.net/)
++ [github/iarkaroy](https://github.com/iarkaroy)
++ [twitter/iarkaroy](http://twitter.com/iarkaroy)
+
+## License
+Copyright © 2018 Arka Roy\
+Released under the MIT license.
