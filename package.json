@@ -14,8 +14,19 @@
     "url": "git+https://github.com/iarkaroy/utils.git"
   },
   "keywords": [
+    "javascript",
+    "util",
     "utils",
-    "javascript"
+    "function",
+    "string",
+    "array",
+    "object",
+    "undefined",
+    "null",
+    "number",
+    "random",
+    "min",
+    "max"
   ],
   "author": "Arka Roy <i.arkaroy@gmail.com> (https://www.arkaroy.net/)",
   "license": "MIT",
