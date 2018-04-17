@@ -1,4 +1,11 @@
 var webpack = require('webpack');
+var PACKAGE = require('./package.json');
+var banner = `${PACKAGE.name}
+${PACKAGE.description}
+@version v${PACKAGE.version}
+@author Arka Roy
+@copyright ©${new Date().getFullYear()} Arka Roy
+Released under the ${PACKAGE.license} license`;
 
 module.exports = {
     entry: {
@@ -20,5 +27,8 @@ module.exports = {
                 loader: 'babel-loader'
             }
         ]
-    }
+    },
+    plugins: [
+        new webpack.BannerPlugin(banner)
+    ]
 }
